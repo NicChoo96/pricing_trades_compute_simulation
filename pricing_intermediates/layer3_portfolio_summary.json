@@ -6,7 +6,7 @@
   "n_instruments": 70000,
   "total_legs": 945564,
   "pricing_date": "2026-04-17",
-  "pricing_time_sec": 6.301,
-  "rollup_time_sec": 0.208,
-  "total_time_sec": 6.509
+  "pricing_time_sec": 6.5,
+  "rollup_time_sec": 0.225,
+  "total_time_sec": 6.725
 }

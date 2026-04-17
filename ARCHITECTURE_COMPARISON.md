@@ -42,7 +42,7 @@ Market Data (in-memory)
 └──────────────────────────────┘
 ```
 
-**Result: ~7 seconds end-to-end on a 16-core / 63GB RAM machine (~25.4GB baseline usage).**
+**Result: ~7 seconds end-to-end on a 16-core / 63GB RAM machine (~25.6GB baseline, ~27GB peak).**
 
 ---
 
