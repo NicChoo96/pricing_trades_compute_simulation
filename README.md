@@ -89,7 +89,7 @@ python simulate_pricing.py
 
 ## Performance
 
-On a 16-core machine with 64GB RAM:
+On a 16-core machine with 63GB RAM (~25.4GB baseline usage):
 
 | Metric | Value |
 |---|---|
@@ -99,5 +99,6 @@ On a 16-core machine with 64GB RAM:
 | Pricing time | ~6–7s |
 | Rollup time | ~0.2s |
 | Throughput | ~117,000 legs/sec |
-| Peak RAM | ~39% of 64GB |
+| Baseline RAM | ~25.4GB / 63GB (40%) |
+| Peak RAM during pricing | ~39% (~24.6GB) — within baseline fluctuation |
 | JSON offloads | 4 batches (~67 MB) |
